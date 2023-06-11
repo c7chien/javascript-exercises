@@ -4,7 +4,6 @@ const sumAll = function(start,end) {
         (typeof start != "number" || typeof end != "number")){
         return "ERROR";
     }
-    
     if (start > end){
         let start_save = start;
         start = end;
